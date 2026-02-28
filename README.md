@@ -13,11 +13,11 @@ Reusable Claude Code skills for AI coding agents.
 
 ```bash
 # Install all skills
-npx skills add github:MehrCurry/claude-skills
+npx skills add MehrCurry/claude-skills
 
 # Install a single skill
-npx skills add github:MehrCurry/claude-skills --skill slim-claude-md
-npx skills add github:MehrCurry/claude-skills --skill just-init
+npx skills add MehrCurry/claude-skills --skill slim-claude-md
+npx skills add MehrCurry/claude-skills --skill just-init
 ```
 
 ## Usage
