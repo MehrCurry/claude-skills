@@ -5,9 +5,9 @@ Reusable Claude Code skills for AI coding agents.
 ## Available Skills
 
 | Skill | Description |
-|-------|-------------|
-| [slim-claude-md](./slim-claude-md/SKILL.md) | Apply context disclosure to a project's CLAUDE.md — trim it to the bare minimum and extract situational knowledge into focused skills |
-| [just-init](./just-init/SKILL.md) | Bootstrap a justfile for any project based on its build system, then update CLAUDE.md to use `just --list` |
+| ----- | ----------- |
+| `just-init` | Bootstraps a justfile for the current project based on its build system (uv, npm, bun, yarn, pnpm, Maven, Gradle, Cargo, Go, Elixir Mix, .NET, PHP Composer, Makefile), then updates CLAUDE.md to replace raw command docs with a just --list reference. Use when the user runs /just-init, says 'create a justfile', 'set up just for this project', or 'bootstrap just'. |
+| `slim-claude-md` | Apply context disclosure to a project's CLAUDE.md — audit the file, categorize content as always-useful vs situational, trim CLAUDE.md to the bare minimum, and extract situational knowledge into focused project-specific skills. Use when a CLAUDE.md is bloated or contains information only relevant to specific task types (frontend work, debugging, a specific subsystem), or when asked to "reduce CLAUDE.md", "apply context disclosure", "slim down project context", or "extract skills from CLAUDE.md". |
 
 ## Install
 
