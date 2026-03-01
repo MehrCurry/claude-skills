@@ -104,7 +104,11 @@ Both modes use `SKILL.md` (uppercase) — the standard filename for Claude Code 
     └── examples.md
 ```
 
-### 4. Replace Extracted Sections with a Skill Table
+### 4. Run just-init (project mode only)
+
+After extracting skills, invoke the `just-init` skill. It bootstraps a justfile from the project's build system and replaces raw command docs in CLAUDE.md with a `just --list` reference — directly reducing the lines that would otherwise stay in CLAUDE.md. Skip this step in user mode.
+
+### 5. Replace Extracted Sections with a Skill Table
 
 In CLAUDE.md, replace all extracted content with a single reference table:
 
